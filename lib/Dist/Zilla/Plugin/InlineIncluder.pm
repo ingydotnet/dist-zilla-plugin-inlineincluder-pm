@@ -1,5 +1,5 @@
 package Dist::Zilla::Plugin::InlineIncluder;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Moose;
 
@@ -26,6 +26,8 @@ has blacklist => (
     },
     default => sub {[qw(
         XXX
+        Inline::Filters
+        Inline::Struct
     )]},
 );
 
