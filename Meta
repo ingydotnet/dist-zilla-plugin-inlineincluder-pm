@@ -1,0 +1,27 @@
+=meta: 0.0.2
+
+name: Dist-Zilla-Plugin-InlineIncluder
+version: 0.01
+abstract: Ship your Inline version
+homepage: https://metacpan.org/release/Dist-Zilla-Plugin-InlineIncluder
+language: perl
+license: perl
+copyright: 2014
+
+author:
+  name: Ingy döt Net
+  email: ingy@cpan.org
+  homepage: http://ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+
+devel:
+  git: https://github.com/ingydotnet/dist-zilla-inlineincluder-pm
+  bug: https://github.com/ingydotnet/dit-zilla-inlineincluder/issues
+  irc: irc.freenode.net#pkg
+
+requires:
+  perl: 5.8.1
+  Dist::Zilla::Plugin::ModuleIncluder: 0
+  Moose: 0
